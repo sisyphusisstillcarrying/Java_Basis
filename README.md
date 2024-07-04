@@ -23,3 +23,5 @@
 | 1 | str.indexOf("x") |
 | 2  | x.startsWith("xx") |
 | 3  |return(a < 0 && b < 0); //returns true whenever its true   |
+|4|nums[i] == 9//to check if no in ith position in the array is equal to 9|
+|5| int len = Math.min(a.length(), b.length())|
