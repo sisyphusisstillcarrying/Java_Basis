@@ -100,11 +100,11 @@ This program prints the following:
 10 % 7 = 3
 ```
 
-You can also combine the arithmetic operators with the simple assignment operator to create compound assignments. For example, x+=1; and x=x+1; both increment the value of x by 1.
+You can also combine the arithmetic operators with the simple assignment operator to create compound assignments. For example, `x+=1`; and `x=x+1`; both increment the value of x by 1.
 
-The + operator can also be used for concatenating (joining) two strings together, as shown in the following ConcatDemo program:
+The `+ operator` can also be used for `concatenating (joining) two strings together`, as shown in the following ConcatDemo program:
 
-
+``` java
 class ConcatDemo {
     public static void main(String[] args){
         String firstString = "This is";
@@ -113,21 +113,24 @@ class ConcatDemo {
         System.out.println(thirdString);
     }
 }
+```
 
 By the end of this program, the variable thirdString contains "This is a concatenated string.", which gets printed to standard output.
-The Unary Operators
+
+### The Unary Operators
 
 The unary operators require only one operand; they perform various operations such as incrementing/decrementing a value by one, negating an expression, or inverting the value of a boolean.
-Operator 	Description
-+	Unary plus operator; indicates positive value (numbers are positive without this, however)
--	Unary minus operator; negates an expression
-++	Increment operator; increments a value by 1
---	Decrement operator; decrements a value by 1
-!	Logical complement operator; inverts the value of a boolean
+|Operator |	Description |
+|---|---|
+|+	|Unary plus operator; indicates positive value (numbers are positive without this, however)|
+|-	|Unary minus operator; negates an expression|
+|++	|Increment operator; increments a value by 1|
+|--	|Decrement operator; decrements a value by 1|
+|!	|Logical complement operator; inverts the value of a boolean|
 
-The following program, UnaryDemo, tests the unary operators:
+The following program, `UnaryDemo,` tests the unary operators:
 
-
+``` java
 class UnaryDemo {
 
     public static void main(String[] args) {
@@ -155,12 +158,13 @@ class UnaryDemo {
         System.out.println(!success);
     }
 }
+```
 
-The increment/decrement operators can be applied before (prefix) or after (postfix) the operand. The code result++; and ++result; will both end in result being incremented by one. The only difference is that the prefix version (++result) evaluates to the incremented value, whereas the postfix version (result++) evaluates to the original value. If you are just performing a simple increment/decrement, it doesn't really matter which version you choose. But if you use this operator in part of a larger expression, the one that you choose may make a significant difference.
+The increment/decrement operators can be applied `before (prefix)` or `after (postfix)` the operand. The code result++; and ++result; will both end in result being incremented by one. The only difference is that the prefix version (++result) evaluates to the incremented value, whereas the postfix version (result++) evaluates to the original value. If you are just performing a simple increment/decrement, it doesn't really matter which version you choose. But if you use this operator in part of a larger expression, the one that you choose may make a significant difference.
 
-The following program, PrePostDemo, illustrates the prefix/postfix unary increment operator:
+The following program, `PrePostDemo`, illustrates the prefix/postfix unary increment operator:
 
-
+``` java
 class PrePostDemo {
     public static void main(String[] args){
         int i = 3;
@@ -178,8 +182,10 @@ class PrePostDemo {
         System.out.println(i);
     }
 }
+```
 
-Equality, Relational, and Conditional Operators
+### Equality, Relational, and Conditional Operators
+
 The Equality and Relational Operators
 
 The equality and relational operators determine if one operand is greater than, less than, equal to, or not equal to another operand. The majority of these operators will probably look familiar to you as well. Keep in mind that you must use "==", not "=", when testing if two primitive values are equal.
@@ -213,11 +219,11 @@ class ComparisonDemo {
 }
 
 Output:
-
+```
 value1 != value2
 value1 <  value2
 value1 <= value2
-
+```
 The Conditional Operators
 
 The && and || operators perform Conditional-AND and Conditional-OR operations on two boolean expressions. These operators exhibit "short-circuiting" behavior, which means that the second operand is evaluated only if needed.
