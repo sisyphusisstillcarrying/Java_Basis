@@ -26,3 +26,15 @@
 |4|nums[i] == 9//to check if no in ith position in the array is equal to 9|
 |5| int len = Math.min(a.length(), b.length())|
 |6|i += 4 //increment by 4|
+
+
+# NewKeywords Methods or Functions
+
+125.
+## Two Pointer Approach
+## str.isEmpty()
+## Character.isLetterOrDigit() 
+## use of string builder
+## Math.pow(), Math.abs()
+# % /
+## overflow control statement
