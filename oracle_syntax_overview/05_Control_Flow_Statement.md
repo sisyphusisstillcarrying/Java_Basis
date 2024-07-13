@@ -301,8 +301,9 @@ The String in the switch expression is compared with the expressions associated 
 
 Note: This example checks if the expression in the switch statement is null. Ensure that the expression in any switch statement is not null to prevent a NullPointerException from being thrown.
 
-The while and do-while Statements
+## The while and do-while Statements
 
+![alt text](1668192167645.png)
 The while statement continually executes a block of statements while a particular condition is true. Its syntax can be expressed as:
 
 while (expression) {
@@ -347,7 +348,7 @@ class DoWhileDemo {
     }
 }
 
-The for Statement
+## The for Statement
 
 The for statement provides a compact way to iterate over a range of values. Programmers often refer to it as the "for loop" because of the way in which it repeatedly loops until a particular condition is satisfied. The general form of the for statement can be expressed as follows:
 

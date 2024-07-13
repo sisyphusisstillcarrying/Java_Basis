@@ -155,6 +155,7 @@ After we get the .class file, the next thing that happens at runtime is:
     - Garbage collector.
 ![alt text](image-10.png)
 
+![alt text](strongly-and-weakly-typed-language-1.jpg)
 ----
 
 this is documented till the introduction to Java Architecture. and from now onwards I will attach a pdf file for all the coming tutorials and will also add comments on them or in a seprate md file.
