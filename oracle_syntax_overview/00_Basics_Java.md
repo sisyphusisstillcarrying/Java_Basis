@@ -2,7 +2,7 @@
 1. On the minute level, there are a bunch of 0s and 1s. We give it instructions, and programming languages help us write and convert them into something that machines understand.
 
 ![alt text](images/intro-to-programming.png)
-![alt text](difference-between-oop-and-pop.webp)
+![alt text](images/difference-between-oop-and-pop.webp)
 
 **First-class functions** are when functions in a language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, returned by another function, and assigned as a value to a variable.
 
@@ -14,7 +14,7 @@ Python follows all three paradigms (functional, object-oriented, and procedural)
 
 Java is statically typed, while Python is dynamically typed.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 **Compile time** refers to the phase of program execution where the source code is converted into machine code or bytecode. During this phase, the code is checked for syntax errors and type compatibility. If any errors are found, the code cannot be compiled successfully.
 
@@ -35,7 +35,7 @@ a = kunal # This will not give an error as the type is different.
 ## Memory Management
 There are two types of memory: stacks and heaps.
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 The reference variable is stored in the stack, and the object is stored in the heap. The reference variable points to the object.
 
@@ -48,7 +48,7 @@ Multiple reference variables can point to the same object. If any one of them ch
 
 An object with no reference variable will be removed by the garbage collector.
 
-![alt text](garbage-collection-reference-counting.jpg)
+![alt text](images/garbage-collection-reference-counting.jpg)
 
 ## Basic Hello World Program
 ```java
@@ -67,21 +67,21 @@ Whenever you run a Java program with the command prompt or want to give command 
 ### Flowcharts
 Write a program that can read three integers from the user and then determines the smallest value among the three integers.
 
-![alt text](javaprogrammingtutorialjgrasp026.png)
+![alt text](images/javaprogrammingtutorialjgrasp026.png)
 
 ### Pseudocode
 
 Pseudocode is like writing down the steps of a task or a program in a way that anyone can understand, without worrying about the exact rules of a programming language. It's a way to plan out how you want a computer program to work, using plain language and simple descriptions of what needs to be done at each step. It helps you organize your thoughts before you start writing actual code.
 
 Find if a number is prime. 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ## Java - Architecture 
 
 ### Q: Why do we use programming languages?
 A: Machines only understand 0s and 1s. For humans, it is very difficult to instruct a computer in 0s and 1s. So, to avoid this issue, we write our code in a human-readable language (programming language). Java is one of the programming languages.
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 1. The code written in Java is human-readable and is saved using the extension .java.
 2. This code is known as source code.
 
@@ -106,7 +106,7 @@ More about Platform Independence:
 - In Java, we get bytecode, and JVM converts this to machine code.
 - Java is platform-independent, but JVM is platform-dependent.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ### JDK
 - Provides an environment to develop and run Java programs.
@@ -127,13 +127,13 @@ More about Platform Independence:
     4. Base libraries
     5. JVM: Java Virtual Machine
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 After we get the .class file, the next thing that happens at runtime is:
 1. Class loader loads all classes needed to execute the program.
 2. JVM sends the code to the bytecode verifier to check the format of the code.
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 - Loading:
     1. Read .class file and generate binary data.
     2. Create an object of this class in the heap.
@@ -153,9 +153,9 @@ After we get the .class file, the next thing that happens at runtime is:
     - For repeated methods, JIT provides direct machine code so that interpretation is not required.
     - Makes execution faster.
     - Garbage collector.
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
-![alt text](strongly-and-weakly-typed-language-1.jpg)
+![alt text](images/strongly-and-weakly-typed-language-1.jpg)
 ----
 
 this is documented till the introduction to Java Architecture. and from now onwards I will attach a pdf file for all the coming tutorials and will also add comments on them or in a seprate md file.

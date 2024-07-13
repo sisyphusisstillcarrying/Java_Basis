@@ -302,8 +302,8 @@ The String in the switch expression is compared with the expressions associated 
 Note: This example checks if the expression in the switch statement is null. Ensure that the expression in any switch statement is not null to prevent a NullPointerException from being thrown.
 
 ## The while and do-while Statements
-
-![alt text](1668192167645.png)
+// Enhanced LOOps (read about them)
+![alt text](images/1668192167645.png)
 The while statement continually executes a block of statements while a particular condition is true. Its syntax can be expressed as:
 
 while (expression) {

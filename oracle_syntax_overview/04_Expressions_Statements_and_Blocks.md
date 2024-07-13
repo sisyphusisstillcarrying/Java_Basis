@@ -89,3 +89,44 @@ class BlockDemo {
      }
 }
 ```
+
+
+## In Java, the `==` operator is used to compare:
+
+1. **Primitive Data Types**: It checks if the values of two primitive data types (e.g., `int`, `char`, `float`, etc.) are the same.
+
+   ```java
+   int a = 5;
+   int b = 5;
+   if (a == b) {
+       System.out.println("a and b are equal.");
+   }
+   ```
+
+2. **Reference Types (Objects)**: It checks if two reference variables point to the same object in memory (i.e., it compares the memory addresses of the objects).
+
+   ```java
+   String str1 = new String("hello");
+   String str2 = new String("hello");
+
+   if (str1 == str2) {
+       System.out.println("str1 and str2 refer to the same object.");
+   } else {
+       System.out.println("str1 and str2 do not refer to the same object.");
+   }
+   ```
+
+   In the example above, `str1` and `str2` are two different objects with the same content, so `str1 == str2` will return `false`.
+
+For comparing the contents of objects (like strings), the `.equals()` method should be used instead of `==`.
+
+```java
+String str1 = new String("hello");
+String str2 = new String("hello");
+
+if (str1.equals(str2)) {
+    System.out.println("str1 and str2 have the same content.");
+}
+```
+
+In this case, `str1.equals(str2)` will return `true` because it compares the actual contents of the strings rather than their memory addresses.
