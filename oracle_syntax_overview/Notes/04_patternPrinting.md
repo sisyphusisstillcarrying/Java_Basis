@@ -8,10 +8,11 @@
 
 1. Run the outer for-loop as the number of rows. (this travese through line by line)
 2. Identify for every row no. (inner working which will print) 
-   1. how many colums are there (non empty places)
+   1. how many columns are there (non empty places).
    2. Types of elements in the column.
 3. What do you need to print 
 // PRACTICE DRY RUNNING (MOST IMPORTANT)
+//LOGIC BUILDING.
 
 `Note: Try to find the formula relating to rows and columns.`
 

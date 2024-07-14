@@ -2,11 +2,13 @@
 1. On the minute level, there are a bunch of 0s and 1s. We give it instructions, and programming languages help us write and convert them into something that machines understand.
 
 ![alt text](images/intro-to-programming.png)
-![alt text](images/difference-between-oop-and-pop.webp)
 
 **First-class functions** are when functions in a language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, returned by another function, and assigned as a value to a variable.
 
-If we need to create a custom datatype that doesn't exist in any previous form, we use the `class`. A class is a general template, and an instance (one occurrence) of this class is called an `object`. An object is a specific occurrence. For example, "Naveen" is an instance of the class "human".
+![alt text](images/difference-between-oop-and-pop.webp)
+
+
+If we need to create a custom datatype that doesn't exist in any previous form,(to catter to our own specific need) we use the `class`. A class is a general template, and an instance (one occurrence) of this class is called an `object`. An object is a specific occurrence. For example, "Naveen" is an instance of the class "human".
 
 Python follows all three paradigms (functional, object-oriented, and procedural), while Java follows OOP and procedural.
 
@@ -46,7 +48,7 @@ Multiple reference variables can point to the same object. If any one of them ch
 
 ### In Java, there is only pass by value. There is no pass by reference because even though a variable might hold a reference to an object, that object reference is a value that represents the object's location in memory. Object references are therefore passed by value.
 
-An object with no reference variable will be removed by the garbage collector.
+An object with no reference variable will be removed by the `garbage collector`.
 
 ![alt text](images/garbage-collection-reference-counting.jpg)
 
@@ -82,14 +84,14 @@ Find if a number is prime.
 A: Machines only understand 0s and 1s. For humans, it is very difficult to instruct a computer in 0s and 1s. So, to avoid this issue, we write our code in a human-readable language (programming language). Java is one of the programming languages.
 
 ![alt text](images/image-7.png)
-1. The code written in Java is human-readable and is saved using the extension .java.
-2. This code is known as source code.
+1. The code written in Java is human-readable and is saved using the extension `.java`.
+2. This code is known as `source code`.
 
 `Java Compiler:`
-1. The Java compiler converts the source code into bytecode, which has the extension .class.
+1. The Java compiler converts the source code into bytecode, which has the extension `.class`.
 2. This bytecode cannot directly run on a system.
-3. We need JVM to run this.
-4. This is the reason why Java is platform-independent.
+3. We need `JVM` to run this.
+4. This is the reason why `Java is platform-independent`.
 
 `Java Interpreter:`
 1. The Java interpreter converts bytecode to machine code (0s and 1s).
@@ -102,10 +104,11 @@ More about Platform Independence:
 - We need to convert source code to machine code so the computer can understand it.
 - The compiler helps in doing this by turning it into executable code.
 - This executable code is a set of instructions for the computer.
-- After compiling C/C++ code, we get an .exe file, which is platform-dependent.
+- After compiling C/C++ code, we get an .exe file, which is `platform-dependent.`
 - In Java, we get bytecode, and JVM converts this to machine code.
 - Java is platform-independent, but JVM is platform-dependent.
 
+.
 ![alt text](images/image-6.png)
 
 ### JDK
@@ -150,7 +153,7 @@ After we get the .class file, the next thing that happens at runtime is:
     - Line by line execution.
     - When one method is called many times, it will interpret again and again.
 - JIT (Just-In-Time):
-    - For repeated methods, JIT provides direct machine code so that interpretation is not required.
+    - For repeated methods, JIT provides direct machine code so that interpretation is not required. // when a function is called again and again.
     - Makes execution faster.
     - Garbage collector.
 ![alt text](images/image-10.png)
@@ -158,4 +161,4 @@ After we get the .class file, the next thing that happens at runtime is:
 ![alt text](images/strongly-and-weakly-typed-language-1.jpg)
 ----
 
-this is documented till the introduction to Java Architecture. and from now onwards I will attach a pdf file for all the coming tutorials and will also add comments on them or in a seprate md file.
+### **this is documented till the introduction to Java Architecture. and from now onwards I will attach a pdf file for all the coming tutorials and will also add comments on them or in a seprate md file.**
