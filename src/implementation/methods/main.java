@@ -19,6 +19,7 @@ public class main {
 
         sum(); //calling the function/method
         sum2();
+        sum3(5,3); //calling the function/method with parameters
 
         //access modifiers return_type method_name(parameters){code here} //template
 
@@ -50,6 +51,14 @@ public class main {
         return sum;
         // System.out.println("The sum = " + sum); //this will give an error as we are returning the value and not printing it as this is unreachable code.
         // when specifying return we have to return that type of value only (like id String is defined then String should be return).
+
+      
+    
+    }
+    // pass the value of numbers when you are calling the method in main()
+    static int sum3(int a, int b) {
+        int sum = a + b;
+        return sum;
     }
     
 }
