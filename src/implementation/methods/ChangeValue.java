@@ -17,4 +17,8 @@ public class ChangeValue {
     static void change(int[] nums){
         nums[0] = 99; // this change will persist and will be in the heap memory.
     }
+    // scope of variable only begins when we initialize it
+    // int n; it is declared but not initialized
+    // int n = 5; it is declared and initialized
+    // n = 5; it is initialized but not declared
 }

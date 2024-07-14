@@ -129,4 +129,4 @@ if (str1.equals(str2)) {
 }
 ```
 
-In this case, `str1.equals(str2)` will return `true` because it compares the actual contents of the strings rather than their memory addresses.
+In this case, `str1.equals(str2)` will return `true` because it compares the actual contents of the strings rather than their memory addresses. this compares values even when they have different referene if you use str1 == str2 it will compare the reference also.
